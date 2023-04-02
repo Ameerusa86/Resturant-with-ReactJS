@@ -1,0 +1,13 @@
+.Card {
+  margin-right: auto;
+  margin-left: auto;
+  width: 75px;
+}
+.row {
+  width: 100%;
+  height: 150px;
+  padding-left: 75px;
+  padding-right: 75px;
+  justify-content: center;
+  align-items: center;
+}

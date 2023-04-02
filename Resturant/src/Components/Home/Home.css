@@ -1,0 +1,55 @@
+.home {
+  background: url(../../assets/banner-1.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.row {
+  width: 750px;
+}
+
+.text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.title {
+  width: 100%;
+  text-transform: capitalize;
+  color: #84b813;
+  font-weight: 900;
+  font-family: "Baloo Bhai", cursive;
+  font-size: 6rem;
+}
+
+.btn {
+  padding: 0.75rem 2rem !important;
+}
+
+.btn:hover {
+  background-color: #84b813 !important;
+  background-image: none;
+  border: #84b813;
+  transition: all 0.5s ease-in-out;
+}
+@media screen and (max-width: 1300px) {
+  .home {
+    background-position: center;
+  }
+}
+@media screen and (max-width: 992px) {
+  .home {
+    background-position: right;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .home {
+    background-position: right;
+  }
+}

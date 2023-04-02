@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&display=swap");
+
+.about {
+  background: url(../../assets/about-bg.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.about-info-top {
+  margin-top: 160px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.about-info-bottom {
+  margin-top: 5px;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 3rem;
+}
+
+.main-title {
+  position: relative;
+  text-align: center;
+  text-transform: capitalize;
+}
+.main-title.style-two {
+  position: relative;
+  text-align: center;
+}
+.main-title.style-two h2 {
+  font-size: 48px;
+  font-family: "Baloo Bhai", cursive;
+  text-transform: initial;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1.2;
+  max-width: 700px;
+  text-transform: capitalize;
+}
+.main-title.style-two span {
+  font-size: 48px;
+  font-family: "Baloo Bhai", cursive;
+  text-transform: initial;
+  font-weight: 500;
+  color: #84b813;
+  line-height: 1.2;
+  max-width: 700px;
+  text-transform: capitalize;
+}
+
+.main-title.style-two p {
+  width: 100%;
+  color: #fff;
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+}
+.row {
+  width: 100%;
+}
+.about_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info {
+  gap: 5rem;
+}
+.row {
+  width: 1000px;
+}
+
+.bottom-section {
+  width: 1000px;
+  padding-bottom: 7rem;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0, 0.5);
+}
+
+.prog-item {
+  margin-top: 5px;
+  color: #fff;
+  text-shadow: 1px 1px #000;
+}
