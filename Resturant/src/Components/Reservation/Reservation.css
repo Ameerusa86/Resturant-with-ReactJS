@@ -1,0 +1,6 @@
+.reservation {
+  background-image: url(../../assets/reservation-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}

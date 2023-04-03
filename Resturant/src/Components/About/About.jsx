@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import Reservation from "../Reservation/Reservation";
 
 const About = () => {
   return (
@@ -110,83 +111,9 @@ const About = () => {
           </div>
         </div>
       </section>
+      <Reservation />
     </>
   );
 };
 
 export default About;
-
-{
-  /* <section className="bottom-section bottom-0">
-<div className="bars">
-  <div className="container container-lg d-flex ">
-    <div className="row rounded-6">
-      <div className="col-12 my-auto">
-        <div className="row">
-          <div className="col-lg-6">
-            <div className="skills alt-font">
-              <div className="prog-item">
-                <p>Fresh &amp; Organic</p>
-                <div className="progress">
-                  <span
-                    className="progress-bar"
-                    data-value="88%"
-                    style={{ width: "88%" }}
-                  ></span>
-                </div>
-              </div>
-              <div className="prog-item ">
-                <p className="text-shadow">
-                  Easy Reservation
-                </p>
-                <div className="progress">
-                  <span
-                    className="progress-bar bg-success"
-                    data-value="75%"
-                    style={{ width: "75%" }}
-                  ></span>
-                </div>
-              </div>
-              <div className="prog-item mb-lg-0">
-                <p>Quality Cuisine</p>
-                <div className="progress">
-                  <span
-                    className="progress-bar"
-                    data-value="96%"
-                    style={{ width: "96%" }}
-                  ></span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-6">
-            <div className="skills alt-font">
-              <div className="prog-item">
-                <p>Professional Staff</p>
-                <div className="progress">
-                  <span
-                    className="progress-bar bg-success"
-                    data-value="85%"
-                    style={{ width: "85%" }}
-                  ></span>
-                </div>
-              </div>
-              <div className="prog-item">
-                <p>24/7 Food Delivery</p>
-                <div className="progress">
-                  <span
-                    className="progress-bar bg-danger"
-                    data-value="97%"
-                    style={{ width: "97%" }}
-                  ></span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</section> */
-}
