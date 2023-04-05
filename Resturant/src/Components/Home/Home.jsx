@@ -20,15 +20,123 @@ const Home = () => {
         >
           <SplideSlide>
             <img src={img1} alt="Image 1" />
+            <div className="container position-absolute top-50 start-50 start-0 translate-middle">
+              <div className="col-4 ">
+                <div className="row">
+                  <h1 className="text text-white text-shadow-lg">
+                    our delicious
+                  </h1>
+                </div>
+                <div className="row">
+                  <h1
+                    className="title"
+                    data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000"
+                  >
+                    the beef burger
+                  </h1>
+                </div>
+                <div className="row">
+                  <p
+                    className="text-white text-shadow-lg"
+                    data-aos="zoom-in"
+                    data-aos-duration="2000"
+                  >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis, possimus.
+                  </p>
+                </div>
+                <button
+                  className="btn btn-rounded btn-large bg-danger text-white"
+                  data-aos="zoom-in"
+                  data-aos-duration="3000"
+                >
+                  Buy Now
+                </button>
+              </div>
+            </div>
           </SplideSlide>
           <SplideSlide>
             <img src={img2} alt="Image 2" />
+            <div className="container position-absolute top-50 start-50 start-0 translate-middle">
+              <div className="col-4 ">
+                <div className="row">
+                  <h1 className="text text-white text-shadow-lg">
+                    our delicious
+                  </h1>
+                </div>
+                <div className="row">
+                  <h1
+                    className="title"
+                    data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000"
+                  >
+                    the Cheese beef burger
+                  </h1>
+                </div>
+                <div className="row">
+                  <p
+                    className="text-white text-shadow-lg"
+                    data-aos="zoom-in"
+                    data-aos-duration="2000"
+                  >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis, possimus.
+                  </p>
+                </div>
+                <button
+                  className="btn btn-rounded btn-large bg-danger text-white"
+                  data-aos="zoom-in"
+                  data-aos-duration="3000"
+                >
+                  Buy Now
+                </button>
+              </div>
+            </div>
           </SplideSlide>
           <SplideSlide>
             <img src={img3} alt="Image 3" />
+            <div className="container position-absolute top-50 start-50 start-0 translate-middle">
+              <div className="col-4 ">
+                <div className="row">
+                  <h1 className="text text-white text-shadow-lg">
+                    our delicious
+                  </h1>
+                </div>
+                <div className="row">
+                  <h1
+                    className="title"
+                    data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000"
+                  >
+                    Pizza
+                  </h1>
+                </div>
+                <div className="row">
+                  <p
+                    className="text-white text-shadow-lg"
+                    data-aos="zoom-in"
+                    data-aos-duration="2000"
+                  >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis, possimus.
+                  </p>
+                </div>
+                <button
+                  className="btn btn-rounded btn-large bg-danger text-white"
+                  data-aos="zoom-in"
+                  data-aos-duration="3000"
+                >
+                  Buy Now
+                </button>
+              </div>
+            </div>
           </SplideSlide>
         </Splide>
-        <div className="container position-absolute top-50 start-50 start-0 translate-middle">
+        {/* <div className="container position-absolute top-50 start-50 start-0 translate-middle">
           <div className="col-4 ">
             <div className="row">
               <h1 className="text text-white text-shadow-lg">our delicious</h1>
@@ -61,7 +169,7 @@ const Home = () => {
               Buy Now
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
       <About />
       {/* <Card /> */}
