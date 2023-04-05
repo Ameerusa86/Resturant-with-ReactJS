@@ -2,15 +2,36 @@ import React from "react";
 import "./Home.css";
 import About from "../About/About";
 // import Card from "../Card/Card";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import img1 from "../../assets/banner-2.jpg";
+import img2 from "../../assets/banner-1.jpg";
+import img3 from "../../assets/banner-3.jpg";
+import "@splidejs/react-splide/css";
 
 const Home = () => {
   return (
     <>
       <div className="home position-relative">
+        <Splide
+          options={{
+            rewind: true,
+            gap: "1rem",
+          }}
+        >
+          <SplideSlide>
+            <img src={img1} alt="Image 1" />
+          </SplideSlide>
+          <SplideSlide>
+            <img src={img2} alt="Image 2" />
+          </SplideSlide>
+          <SplideSlide>
+            <img src={img3} alt="Image 3" />
+          </SplideSlide>
+        </Splide>
         <div className="container position-absolute top-50 start-50 start-0 translate-middle">
           <div className="col-4 ">
             <div className="row">
-              <h1 className="text text-white">our delicious</h1>
+              <h1 className="text text-white text-shadow-lg">our delicious</h1>
             </div>
             <div className="row">
               <h1
@@ -24,7 +45,7 @@ const Home = () => {
             </div>
             <div className="row">
               <p
-                className="text-white"
+                className="text-white text-shadow-lg"
                 data-aos="zoom-in"
                 data-aos-duration="2000"
               >

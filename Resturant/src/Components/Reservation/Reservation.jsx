@@ -4,101 +4,125 @@ import "./Reservation.css";
 const Reservation = () => {
   return (
     <>
-      <div className="reservation pb-0 text-warning position-absolute b-0 w-100 h-50 ">
+      <div className="reservation pb-0 text-warning position-absolute b-0 w-100 h-75 ">
         <div
           class="mask"
           style={{ backgroundColor: "hsla(0, 0%, 0%, 0.6)" }}
         ></div>
       </div>
-      <div className="container w-100 bg-danger position-absolute mt-5">
-        <div className="row">
-          <div className="col-lg-12 col-md-8 bg-warning">
-            dsfgsdf
-            {/* <form>
-              <div class="row mb-4">
-                <div class="col">
-                  <div class="form-outline">
+      <div className="container  mt-5 ps-5 pe-5 ms-auto me-auto">
+        <div className="row d-flex flex-wrap">
+          <div className="col-lg-12 h-100">
+            <form className="bg-warning ">
+              <div className="row mb-4">
+                <div className="col">
+                  <div className="form-outline">
                     <input
                       type="text"
                       id="form6Example1"
-                      class="form-control"
+                      className="form-control"
                     />
-                    <label class="form-label" for="form6Example1">
+                    <label
+                      className="form-label text-white"
+                      for="form6Example1"
+                    >
                       First name
                     </label>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="form-outline">
+                <div className="col">
+                  <div className="form-outline">
                     <input
                       type="text"
                       id="form6Example2"
-                      class="form-control"
+                      className="form-control"
                     />
-                    <label class="form-label" for="form6Example2">
+                    <label
+                      className="form-label text-white"
+                      for="form6Example2"
+                    >
                       Last name
                     </label>
                   </div>
                 </div>
               </div>
 
-              <div class="form-outline mb-4">
-                <input type="text" id="form6Example3" class="form-control" />
-                <label class="form-label" for="form6Example3">
+              <div className="form-outline mb-4">
+                <input
+                  type="text"
+                  id="form6Example3"
+                  className="form-control"
+                />
+                <label className="form-label text-white" for="form6Example3">
                   Company name
                 </label>
               </div>
 
-              <div class="form-outline mb-4">
-                <input type="text" id="form6Example4" class="form-control" />
-                <label class="form-label" for="form6Example4">
+              <div className="form-outline mb-4">
+                <input
+                  type="text"
+                  id="form6Example4"
+                  className="form-control"
+                />
+                <label className="form-label text-white" for="form6Example4">
                   Address
                 </label>
               </div>
 
-              <div class="form-outline mb-4">
-                <input type="email" id="form6Example5" class="form-control" />
-                <label class="form-label" for="form6Example5">
+              <div className="form-outline mb-4">
+                <input
+                  type="email"
+                  id="form6Example5"
+                  className="form-control"
+                />
+                <label className="form-label text-white" for="form6Example5">
                   Email
                 </label>
               </div>
 
-              <div class="form-outline mb-4">
-                <input type="number" id="form6Example6" class="form-control" />
-                <label class="form-label" for="form6Example6">
+              <div className="form-outline mb-4">
+                <input
+                  type="number"
+                  id="form6Example6"
+                  className="form-control"
+                />
+                <label className="form-label text-white" for="form6Example6">
                   Phone
                 </label>
               </div>
 
-              <div class="form-outline mb-4">
+              <div className="form-outline mb-4">
                 <textarea
-                  class="form-control"
+                  className="form-control"
                   id="form6Example7"
                   rows="4"
                 ></textarea>
-                <label class="form-label" for="form6Example7">
+                <label className="form-label text-white" for="form6Example7">
                   Additional information
                 </label>
               </div>
 
-              <div class="form-check d-flex justify-content-center mb-4">
+              <div className="form-check d-flex justify-content-center mb-4">
                 <input
-                  class="form-check-input me-2"
+                  className="form-check-input me-2"
                   type="checkbox"
                   value=""
                   id="form6Example8"
                   checked
                 />
-                <label class="form-check-label" for="form6Example8">
+                <label className="form-check-label" for="form6Example8">
                   {" "}
                   Create an account?{" "}
                 </label>
               </div>
 
-              <button type="submit" class="btn btn-primary btn-block mb-4">
+              <button
+                type="submit"
+                className="btn btn-primary btn-block mb-4 text-white"
+              >
                 Place order
               </button>
-            </form> */}
+            </form>
           </div>
         </div>
       </div>
